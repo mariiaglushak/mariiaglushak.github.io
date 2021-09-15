@@ -1,62 +1,47 @@
 *{
 	margin: 0;
-	padding:0;
+	padding: 0;
 	box-sizing: border-box;
-	height: 100%;
 }
 .wrapper{
 	border: 2px solid #808080;
 	max-width: 960px;
 	margin: 0 auto;
 	height: 100%;
-	z-index: 1;
 }
-.box-1{
+.left{
 	height: 100%;
 	max-width: 25%;
 	background-color: #0000FF;
 }
-.box-a{
-	height: 150px;
-	max-width: 100%;
-	background-color: red;
-	padding: absolute;
-	z-index: 3;
-	}
-	.img{
-		display: block;
-		width: 100%;
-		border-radius: 50%;
-	}
-	.box-b{
-		height: 200px;
-		max-width: 100%;
-		background-color: green;
-		z-index: 4;
-	}
-	.data{
-		height: 30px;
-		max-width: 100%;
-		background-color: #0000FF;
-		z-index: 6;
-	}
-	.box-c{
-		height: 200px;
-		max-width: 100%;
-		background-color: black;
-		z-index: 5;
-}
-.box-2{
-	height: 100%;
-	max-width: 75%;
-	background-color: #FFFFFF;
-	z-index: 2;
-}
-.wrapper-0{
+.photo{
 	height: 200px;
-	max-width: 100%;
-	background-color: red;
+	max-width:100%;
+	background-color:#0000FF;
 }
-
-
-
+img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+	padding: 20px 40px;
+}
+.info{
+	height: 220px;
+	max-width: 25%;
+	background-color: #0000FF;
+}
+.interests{
+	height: 100px;
+	max-width: 25%;
+	background-color: #0000FF;
+}
+.languages{
+	height: 70px;
+	max-width: 25%;
+	background-color: #0000FF ;
+}
+.right{
+	height: 100%;
+	max-width:25%;
+	background-color: green;
+}
