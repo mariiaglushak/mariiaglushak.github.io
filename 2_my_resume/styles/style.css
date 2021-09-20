@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	border: 2px solid #808080;
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+}
+.left{
+	width: 250px;
+	background-color:#5F9EA0;
+	padding-left: 6px;
+}
+.photo{
+	height: 250px;
+	max-width:100%;
+	background-color:#5F9EA0;
+}
+img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+	padding: 20px 40px;
+}
+.info{
+	width:250px ;
+	background-color:#5F9EA0;
+}
+.title{
+	justify-content: center;
+	font-weight: bold;
+}
+.data{
+	justify-content: space-between;
+}
+.interests{
+	width: 250px;
+	background-color: #5F9EA0;
+}
+.languages{
+	width: 250px;
+	background-color: #5F9EA0 ;
+}
+.right{
+	width: 100%;
+	background-color:#FFFFFF;
+	padding-left: 6px;
+}
+.name{
+	width: 100%;
+	background-color:#FFFFFF;
+}
+.edukation{
+	width: 100%;
+	background-color:#FFFFFF;
+}
