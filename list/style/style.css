@@ -1,0 +1,8 @@
+ol{
+    counter-reset: chapter-count 0;
+}
+li:before{
+	counter-increment: li;
+	content: counter(li,"3");
+	counter-reset: chapter-count -3;
+}
