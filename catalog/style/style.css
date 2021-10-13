@@ -15,9 +15,8 @@ html body{
 }
 .main-title{
 	display: block;
-	padding-top: 30px;
+	padding: 30px 30px;
 	text-transform: uppercase;
-
 }
 .wrapper{
 	border: 2px solid #c0c0c0;
@@ -25,7 +24,7 @@ html body{
 	height: 420px;
 	width: 732px;
 	display: flex;
-	margin-top: 50px;
+	margin: 0 auto;
 	position: relative;
 }
 .offer{
@@ -34,6 +33,7 @@ html body{
 	border-right: 2px solid #c0c0c0;
 	padding-left: 9px;
 	font-size: small;
+	position: relative;
 }
 .title{
 	text-align: center;
@@ -92,6 +92,9 @@ span{
 	font-size: 8pt;
 	margin: 25px 30px 60px ;
 }
+.button:active{
+	background:#ffffff ;
+}
 .button-violet{
 	background-color: #ba55d3;
 	display: block;
@@ -104,29 +107,62 @@ span{
 	font-size: 8pt;
 	margin: 25px 30px 60px
 }
+.button-violet:active{
+	background:#ffffff ;
+}
 .sticker{
 	position: absolute;
-	height: 57px;
-	width: 57px;
+	top: -32px;
+	right: 4px;
+	height: 58px;
+	width: 58px;
 	border-radius: 50%;
 	background-color:#1e90ff ;
 	text-align: center;
 	font-size:small;
 	padding-top: 8px;
-	border-bottom: 3px solid #ffffff;
+	border: 2px solid #ffffff;
 	color: #ffffff ;
 }
 .sticker-green{
 	position: absolute;
-	height: 57px;
-	width: 57px;
+	top:-32px ;
+	right: 4px;
+	height: 58px;
+	width: 58px;
 	border-radius: 50%;
 	background-color:#49961d ;
 	text-align: center;
 	font-size:small;
 	padding-top: 8px;
-	border-bottom: 3px solid #ffffff;
+	border: 2px solid #ffffff;
 	color: #ffffff ;
 	padding-top: 17px;
+}
+.left{
+	position: absolute;
+	top: 55px;
+	left: 165px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid #c0c0c0 ;
+	color: #c0c0c0 ;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #ffffff;
+}
+.right{
+	position: absolute;
+	top: 55px;
+	left: -565px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid #c0c0c0 ;
+	color: #c0c0c0 ;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #ffffff;
 }
 
